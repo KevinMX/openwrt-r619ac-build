@@ -9,8 +9,9 @@
 新版移除了某些头文件导致了编译失败。
 
 解决方案：降级gawk至4.2.1，make clean后重新编译
-```yay -S downgrade	#安装downgrade脚本方便降级，可添加archlinuxcn源或从AUR安装
-downgrade gawk
+```
+$ yay -S downgrade	#安装downgrade脚本方便降级，可添加archlinuxcn源或从AUR安装
+$ downgrade gawk
 可选的包：
 
    1)  gawk    4.2.1  2  x86_64  (远端)
