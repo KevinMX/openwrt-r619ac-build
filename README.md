@@ -23,3 +23,7 @@ $ downgrade gawk
 输入数字以选择包： 2
 ```
 即可。
+最近的版本可能会因upx导致编译错误（https://github.com/coolsnowwolf/lede/issues/2852），需安装upx/升级upx至3.95以上版本（Arch直接安装即可）：
+```
+sudo pacman -S upx
+```
